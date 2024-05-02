@@ -1,0 +1,49 @@
+.header{
+  height: 70px;
+}
+.header-menus{
+  line-height: 70px;
+  padding: 0px 20px;
+}
+.header-menus:hover{
+  color: #313a44;
+  cursor: pointer;
+}
+.header-menus-btn{
+  border-radius: 5px;
+  border: solid 0.5px #f15163;
+  padding: 0px 16px;
+  max-width: 88px;
+
+}
+
+.logo{
+  width: 170px;
+  margin-top: -4px;
+}
+.navbar-default {
+  border: none!important;
+  background-color: #ffffff!important;
+}
+.navbar {
+  min-height: 70px!important;
+}
+.navbar-toggle {
+  margin-top: 16px;
+}
+.navbar-nav li a{
+  color: #000000;
+  line-height: 37px!important;
+}
+.active-route{
+  color: #f15163!important;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-menus-btn {
+    margin-left: 15px;
+  }
+  #myNavbar{
+    border-bottom: 1px solid #e0d6d6;
+  }
+}

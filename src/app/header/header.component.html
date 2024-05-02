@@ -1,0 +1,53 @@
+<!--<div class="header">-->
+<!--  <div class="container-fluid">-->
+<!--    <div class="col-md-6 col-xs-4">-->
+<!--      <img class="logo pointer" src="../../assets/logos/Group%204294@3x.png" [routerLink]="['']">-->
+<!--    </div>-->
+<!--    <div class="col-md-6 col-xs-8 text-right">-->
+<!--      <a class="header-menus" [routerLink]="['/remote-it-staffing']" [routerLinkActive]="['active-route']">-->
+<!--        Remote IT Staffing-->
+<!--      </a>-->
+<!--      <a class="header-menus" [routerLink]="['/services']" [routerLinkActive]="['active-route']">-->
+<!--        Service-->
+<!--      </a>-->
+<!--      <a class="header-menus" [routerLink]="['/about']" [routerLinkActive]="['active-route']">-->
+<!--        About-->
+<!--      </a>-->
+<!--      <a class="header-menus header-menus-btn" [routerLink]="['/contact-us']" [routerLinkActive]="['active-route']">-->
+<!--        Contact-->
+<!--      </a>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+
+
+<nav class="navbar navbar-default mb-0" style="border-radius: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 999;
+    top: 0;
+">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img class="logo pointer" src="../../assets/logos/Group%204294@3x.png" [routerLink]="['']">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a [routerLink]="['/remote-it-staffing']" [routerLinkActive]="['active-route']"> Remote IT Staffing</a></li>
+        <li><a [routerLink]="['/services']" [routerLinkActive]="['active-route']"> Services</a></li>
+        <li><a [routerLink]="['/about']" [routerLinkActive]="['active-route']"> About</a></li>
+        <li style="margin-top: 17px"><a class="header-menus-btn" [routerLink]="['/contact-us']" [routerLinkActive]="['active-route']"> Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

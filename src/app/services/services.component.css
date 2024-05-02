@@ -1,0 +1,104 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../../assets/images/service-header1.png");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 37%;
+  left: 35%;
+  transform: translate(-37%, -35%);
+  border-radius: 2px;
+  background-color: #f8fbff;
+  padding: 25px;
+  max-width: 500px;
+}
+
+.slider-box-services img {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider-box-services {
+  padding: 25px 20px;
+  text-align: center;
+  border-radius: 3px;
+  border: solid 0.5px #ffffff;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-left: 10px;
+  min-height: 170px;
+  max-height: 170px;
+}
+.slider-box-services:hover{
+  background-color: #f8fbff;
+}
+
+.nav-tabs li{
+  text-align: center;
+  border-radius: 0px;
+  border-bottom: 2px solid #22313f;
+}
+.nav-tabs li a{
+ background-color: #22313f;
+  border: none;
+  color: #535D67;
+}
+.nav-tabs .active{
+  border-bottom: 2px solid #f15163;
+  color: #ffffff;
+}
+.nav-tabs .active a{
+  color: #ffffff!important;
+}
+
+
+.panel-group .icon-class:before {
+  content: '\002B';
+}
+.panel-group a[aria-expanded="true"] .icon-class:before {
+  content: '\002D';
+}
+
+
+.panel-group .icon-class{
+  float: right;
+  font-size: 22px;
+}
+.panel{
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #e8e6e6;
+  border-radius: 0px;
+}
+.panel-heading{
+  background: none;
+}
+.panel-body{
+  border: none!important;
+}
+
+.work-flow-section img {
+  width: 85%;
+}
+@media only screen and (max-width: 768px) {
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../../assets/images/service-header1-mobile.png");
+    height: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .work-flow-section img {
+    width: 100%;
+  }
+  .hero-text{
+    width: 88%;
+  }
+}
